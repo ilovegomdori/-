@@ -1,0 +1,33 @@
+/* =============================== header */
+
+#header {
+    position: fixed;
+    top: 2%;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    text-align: center; /* 네비게이션 메뉴를 가운데 정렬 */
+    z-index: 100;
+}
+
+#header .nav {
+    display: inline-block; /* 네비게이션 메뉴 항목을 수평으로 표시 */
+}
+
+#header .nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#header .nav li a{
+    margin: 5px 15px;
+    color: #fff;
+}
+
+/* =============================== content */
+
+#section-kit .products {
+    margin: 0 auto; /* 수평 가운데 정렬 */
+    width: 740px;
+    text-align: center;
+}

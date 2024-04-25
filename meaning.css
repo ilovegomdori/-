@@ -1,0 +1,47 @@
+#main-img-location{
+    
+    width: 100%;
+    height: 300px;
+    background: #000000;
+}
+
+#main-img{
+    position: relative;
+    
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+
+
+    width: 70%;
+    height: auto;
+}
+
+img {
+    width: 50px;
+}
+
+/* ================ */
+
+#main-text-location{
+
+    width: 100%;
+    height: 800px;
+    background: #000000;
+}
+
+#main-text{
+    position: relative;
+    
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+
+
+    width: 70%;
+    height: auto;
+}
+
+#main-text p{
+    color: #fff;
+}

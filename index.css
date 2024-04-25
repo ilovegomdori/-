@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+#wrap{
+    background-color: rgb(0, 0, 0);
+
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Noto Sans Korean' !important;
+    background-color: transparent;
+    }
+    
+
+/* =============================== header */
+
+
+#header {
+    position: fixed;
+    top: 2%;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    text-align: right;
+    z-index: 100;
+    display: inline-block;
+}
+
+#header .nav {
+    display: inline-block; /*가운데 정렬을 위해...*/
+}
+
+#header .nav li {
+    display: inline-block;
+    margin-right: 20px; /* 메뉴 항목 간격 설정 */
+}
+
+#header .nav li a{
+    margin: 5px 15px;
+    color: #fff;
+}
+
+
+/* =============================== main video */
+
+
+#main-display {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+#main-video-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* 다른 콘텐츠 위에 배치 */
+
+}
+
+#main-video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+#main-video-container #h1-location {
+    position: relative;
+    margin-top: -150px;
+    margin-right: 100px;
+
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* 영상 위에 표시 */
+    color: white; /* 텍스트 색상 설정 */
+
+    font-size: 3rem;
+    text-align: right;
+}
+
+/* =============================== content */
+
+
+#content-display {
+    width: 100%;
+    height: 800px;
+    background-color: #000000;
+    position: relative; /* 부모 요소의 위치를 상대적으로 설정 */
+}
+
+#typo-video-container{
+    position: absolute; /* 자식 요소의 위치를 절대적으로 설정 */
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* 요소를 수직 및 수평으로 가운데로 이동 */
+}
+
+#typo-video-container video {
+    position: relative; /* 부모 요소의 위치를 상대적으로 설정 */
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+#typo-video-container #h3-location {
+    position: relative;
+    margin-top: -100px;
+
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* 영상 위에 표시 */
+    color: rgba(255, 255, 255, 0.605); /* 텍스트 색상 설정 */
+}
+
+#typo-video-container h3{
+
+    font-weight: 100;
+    font-size: 0.8rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+/* =============================== footer */
+
+.footer-menu {
+    display: flex;
+    background-color: #181818;
+    padding: 20px;
+}
+.footer-text {
+    width: 30%;
+}
+.footer-text h3 {
+    font-size: 18px;
+    margin-bottom: 13px;
+    color: #666;
+}
+.footer-text ul li a{
+    color: #555;
+    font-size: 14px;
+    line-height: 1.7;   
+}
+#footer-right {
+    display: flex;
+    font-size: 14px;
+    line-height: 1.7;
+    border-top: 1px solid #d9d9d9;
+    
+    color: #222;
+    background-color: #dcdcdc;
+}
+
+.p-left {
+    text-align: left;
+}
+.p-right {
+    position: absolute;
+    right: 0%;
+    text-align: right;
+}
+
+
+
+
+
+/* =============================== meaning */
+
